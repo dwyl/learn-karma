@@ -13,12 +13,17 @@ Not only can *data* be "real" but so can *testing* (in "real" browsers)!
 
 If you've never heard of Karma, prepare to have your mind blown! :-)
 
-Official Description: Karma is a Test Automation tool which spawns a web server 
-and executes source code against test code for each of the browsers connected. 
-The results for each browser are examined and displayed via the command line 
-so a developer can to see which browsers and tests passed or failed.
+**Official Description**: Karma is a [test automation] tool that spawns a web 
+server and executes source code against test code for each of the browsers 
+connected. The results for each browser are examined and displayed via the 
+command line so developers can see which browsers and tests passed or failed.
 
+In other words, you can **automatically** test all your front-end code
+in **any** / **all** your target browsers each time you save your work.
 
+>> I will need to come back to this tutorial later as have just been handed 
+> a ton of work that needs to be done **Today**! :-(
+> if you can't wait read: http://www.tuesdaydeveloper.com/2013/06/angularjs-testing-with-karma-and-jasmine/
 
 
 ### Notes
@@ -36,3 +41,4 @@ so a developer can to see which browsers and tests passed or failed.
 #### Tutorials
 
 - Angular-specific: http://www.yearofmoo.com/2013/01/full-spectrum-testing-with-angularjs-and-karma.html
+- Angular (Again): http://www.tuesdaydeveloper.com/2013/06/angularjs-testing-with-karma-and-jasmine/
