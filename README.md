@@ -5,6 +5,10 @@ Dive into Karma JavaScript Test Runner
 
 - - -
 
+![Dilbert Real Data](https://raw.github.com/nelsonic/learn-karma/master/images/dilbert-performance-test.jpg "Real Data")
+
+Not only can *data* be "real" but so can *testing* (in "real" browsers)!
+
 #### What is Karma?
 
 If you've never heard of Karma, prepare to have your mind blown! :-)
