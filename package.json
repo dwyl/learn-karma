@@ -1,0 +1,27 @@
+{
+  "name": "learn-karma",
+  "version": "0.0.1",
+  "author": "https://twitter.com/nelsonic",
+  "description":"A image resizer without an Image Library",
+  "dependencies": {
+
+    }, 
+  "devDependencies": {
+    "karma":"*"
+  },
+    "license": "MIT",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  }, 
+  "keywords": [
+    "Learn Karma"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nelsonic/learn-karma.git"
+  },
+    "scripts": {
+        "test": "node_modules/.bin/karma start karma.conf.js"
+  }
+}
