@@ -1,6 +1,6 @@
 // Karma configuration
 // Generated on Wed Oct 30 2013 22:28:26 GMT+0000 (GMT)
-
+console.log('- - - > '+__dirname);
 module.exports = function(config) {
   config.set({
 
@@ -14,7 +14,8 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      './*.js'
+      './src/*.js',
+      './tests/*.js'
     ],
 
 
@@ -54,7 +55,7 @@ module.exports = function(config) {
     // - Safari (only Mac; has to be installed with `npm install karma-safari-launcher`)
     // - PhantomJS
     // - IE (only Windows; has to be installed with `npm install karma-ie-launcher`)
-    browsers: ['Chrome'],
+    browsers: ['Firefox'],
 
 
     // If browser does not capture in given timeout [ms], kill it
@@ -63,6 +64,6 @@ module.exports = function(config) {
 
     // Continuous Integration mode
     // if true, it capture browsers, run tests and exit
-    singleRun: false
+    singleRun: true
   });
 };

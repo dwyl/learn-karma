@@ -48,7 +48,7 @@ If you are learning by cloning this repository
 ```sh
 git clone git@github.com:nelsonic/learn-karma.git
 ```
-then install karma locally:
+then install dependencies (karma and jasmine) locally:
 
 ```sh
 npm install
@@ -101,6 +101,7 @@ with the url: `http://localhost:9876/`
 - Sample Karma Config: https://github.com/karma-runner/karma/blob/v0.8.5/test/client/karma.conf.js
 - Using Karma with Travis CI: http://karma-runner.github.io/0.10/plus/travis.html
 - Jasmine Report: http://stackoverflow.com/questions/16684582/generate-jasmine-report-using-karma-runner
+- ~~https://egghead.io/lessons/unit-testing-introduction-to-karma~~ (requires webstorm...)
 
 #### How-to Videos
 
