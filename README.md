@@ -102,6 +102,7 @@ with the url: `http://localhost:9876/`
 - Using Karma with Travis CI: http://karma-runner.github.io/0.10/plus/travis.html
 - Jasmine Report: http://stackoverflow.com/questions/16684582/generate-jasmine-report-using-karma-runner
 - ~~https://egghead.io/lessons/unit-testing-introduction-to-karma~~ (requires webstorm...)
+- Non angular-specific: http://kroltech.com/2013/11/javascript-tdd-with-jasmine-and-karma
 
 #### How-to Videos
 
