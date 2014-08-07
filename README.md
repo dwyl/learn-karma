@@ -104,6 +104,11 @@ with the url: `http://localhost:9876/`
 - ~~https://egghead.io/lessons/unit-testing-introduction-to-karma~~ (requires webstorm...)
 - Non angular-specific: http://kroltech.com/2013/11/javascript-tdd-with-jasmine-and-karma
 
+
+#### Using Karma with Travis CI
+
+- http://karma-runner.github.io/0.8/plus/Travis-CI.html
+
 #### How-to Videos
 
 - Testacular Tutorial (still relevant): http://www.youtube.com/watch?v=MVw8N3hTfCI
