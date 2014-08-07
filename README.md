@@ -1,4 +1,4 @@
-learn-karma [Work-in-Progress]
+learn-karma [![Build Status](https://travis-ci.org/nelsonic/learn-karma.png?branch=master)](https://travis-ci.org/nelsonic/learn-karma) [![Code Climate](https://codeclimate.com/github/nelsonic/learn-karma.png)](https://codeclimate.com/github/nelsonic/learn-karma) [![Dependencies](https://david-dm.org/nelsonic/learn-karma.png?theme=shields.io)](https://david-dm.org/nelsonic/learn-karma)
 ===========
 
 Dive into Karma JavaScript Test Runner
@@ -13,9 +13,9 @@ Not only can *data* be "real" but so can *testing* (in "real" browsers)!
 
 If you've never heard of Karma, prepare to have your mind blown! :-)
 
-**Official Description**: Karma is a [test automation] tool that spawns a web 
-server and executes source code against test code for each of the browsers 
-connected. The results for each browser are examined and displayed via the 
+**Official Description**: Karma is a [test automation] tool that spawns a web
+server and executes source code against test code for each of the browsers
+connected. The results for each browser are examined and displayed via the
 command line so developers can see which browsers and tests passed or failed.
 
 In other words, you can **automatically** test all your front-end code
@@ -24,16 +24,16 @@ in **any** / **all** your target browsers each time you save your work.
 #### Why is Karma Awesome?
 
 You don't have to *think* about switching contexts to run your tests.
-Simply save the file you are working on and Karma's watcher will 
+Simply save the file you are working on and Karma's watcher will
 automatically instruct all the connected browsers to re-run the tests.
 
 Imagine you have 10 browsers you need to test your code against:
 [Internet Explorer 7/8/9/10, Firefox 3.5/Latest, Chrome, Safari Mac/iOS, Opera]
-If the target browsers are all on the machine that is running Karma, 
-you would simply add them to the configuration file and Karma would manage 
+If the target browsers are all on the machine that is running Karma,
+you would simply add them to the configuration file and Karma would manage
 them for you.
 
-Any browsers on machines/devices can connect to Karma over the internet and 
+Any browsers on machines/devices can connect to Karma over the internet and
 run tests simply by pointing the browser at the Karma server:
 http://test.acme.com:9876/
 
@@ -54,12 +54,12 @@ then install dependencies (karma and jasmine) locally:
 npm install
 ```
 
-Otherwise, if you are going to run Karma for all your projects 
+Otherwise, if you are going to run Karma for all your projects
 (because you think its *awesome*):
 
 ```sh
 sudo npm install -g karma
-````
+```
 
 #### Karama Configuration (File)
 
@@ -75,7 +75,7 @@ You can always change them manually in your **karma.config.js** file.
 Once you are through the wizard, initiate Karma:
 
 ```sh
-karma start karma.config.js 
+karma start karma.config.js
 ```
 
 This will open a browser window (what ever the default on your computer is)
@@ -84,7 +84,7 @@ with the url: `http://localhost:9876/`
 ![Karma Chrome Connected](https://raw.github.com/nelsonic/learn-karma/master/images/karma-first-start-connected-idle.png "Karma Chrome Connected")
 
 
->> I will need to come back to this tutorial later as have just been handed 
+>> I will need to come back to this tutorial later as have just been handed
 > a ton of work that needs to be done **Today**! :-(
 > if you can't wait read: http://www.tuesdaydeveloper.com/2013/06/angularjs-testing-with-karma-and-jasmine/
 
@@ -108,6 +108,7 @@ with the url: `http://localhost:9876/`
 #### Using Karma with Travis CI
 
 - http://karma-runner.github.io/0.8/plus/Travis-CI.html
+- http://docs.travis-ci.com/user/gui-and-headless-browsers/
 
 #### How-to Videos
 
