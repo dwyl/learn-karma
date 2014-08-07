@@ -1,4 +1,4 @@
-learn-karma [![Build Status](https://travis-ci.org/nelsonic/learn-karma.png?branch=master)](https://travis-ci.org/nelsonic/learn-karma) [![Code Climate](https://codeclimate.com/github/nelsonic/learn-karma.png)](https://codeclimate.com/github/nelsonic/learn-karma) [![Dependencies](https://david-dm.org/nelsonic/learn-karma.png?theme=shields.io)](https://david-dm.org/nelsonic/learn-karma)
+learn-karma [![Build Status](https://travis-ci.org/nelsonic/learn-karma.png?branch=master)](https://travis-ci.org/nelsonic/learn-karma) [![Code Climate](https://codeclimate.com/github/nelsonic/learn-karma/badges/gpa.svg)](https://codeclimate.com/github/nelsonic/learn-karma) [![Dependencies](https://david-dm.org/nelsonic/learn-karma.png?theme=shields.io)](https://david-dm.org/nelsonic/learn-karma)
 ===========
 
 Dive into Karma JavaScript Test Runner
