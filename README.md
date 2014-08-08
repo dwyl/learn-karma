@@ -35,7 +35,8 @@ them for you.
 
 Any browsers on machines/devices can connect to Karma over the internet and
 run tests simply by pointing the browser at the Karma server:
-http://test.acme.com:9876/
+http://test.acme.com:9876/ *or* using a service like http://localtunnel.me
+to make your development machine accessible outside of your network.
 
 Once the browser is connected to Karma it will run all the tests for you
 on auto-pilot and respond with test results.
