@@ -47,7 +47,7 @@ on auto-pilot and respond with test results.
 If you are learning by cloning this repository
 
 ```sh
-git clone git@github.com:nelsonic/learn-karma.git
+git clone https://github.com/nelsonic/learn-karma.git
 ```
 then install dependencies (karma and jasmine) locally:
 
@@ -62,12 +62,19 @@ Otherwise, if you are going to run Karma for all your projects
 sudo npm install -g karma
 ```
 
+As of version 0.12
+
+```sh
+sudo npm install -g karma-cli
+```
+
+
 #### Karama Configuration (File)
 
 Run the Karma initilisation (*wizard*) to create your configuration file:
 
 ```sh
-karma init karma.config.js
+karma init
 ```
 
 Go through each step and select the defaults.

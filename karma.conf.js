@@ -9,8 +9,15 @@ module.exports = function(config) {
 
 
     // frameworks to use
-    frameworks: ['jasmine'],
+    // frameworks: ['jasmine'],
+    frameworks : ['mocha'],
 
+    // plugins : [ 'karma-mocha'],
+    client: {
+      mocha: {
+        ui: 'tdd'
+      }
+    },
 
     // list of files / patterns to load in the browser
     files: [
@@ -21,7 +28,7 @@ module.exports = function(config) {
 
     // list of files to exclude
     exclude: [
-      
+
     ],
 
 
@@ -55,7 +62,7 @@ module.exports = function(config) {
     // - Safari (only Mac; has to be installed with `npm install karma-safari-launcher`)
     // - PhantomJS
     // - IE (only Windows; has to be installed with `npm install karma-ie-launcher`)
-    browsers: ['Firefox'],
+    browsers: ['Chrome'],
 
 
     // If browser does not capture in given timeout [ms], kill it
