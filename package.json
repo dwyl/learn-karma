@@ -26,6 +26,6 @@
     "url": "https://github.com/nelsonic/learn-karma.git"
   },
   "scripts": {
-    "test": "node_modules/karma/bin/karma start karma.config.js"
+    "test": "node_modules/karma/bin/karma start karma.conf.js"
   }
 }
