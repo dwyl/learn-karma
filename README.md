@@ -83,7 +83,7 @@ You can always change them manually in your **karma.config.js** file.
 Once you are through the wizard, initiate Karma:
 
 ```sh
-karma start karma.config.js
+karma start karma.conf.js
 ```
 
 This will open a browser window (what ever the default on your computer is)
