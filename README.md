@@ -86,7 +86,7 @@ To fix it install:
 	npm install karma-chrome-launcher --save-dev
 ```
 
-##First test
+## First test
 
 This test checks that our function returns the right result.
 
@@ -103,6 +103,95 @@ describe("First test", function () {
 	it("should work", function () {
 		var test = hello();
 		expect(test).toBe("HELLO WORLD!");
+	});
+});
+```
+
+## Work with browserify
+
+Sometimes we may want to bundle all our javascript into one file. In order do to so we can use `browserify`.
+
+Let's have a look to an example with it:
+
+```js
+// src/one.js -------------------------------------------
+
+"use strict";
+
+module.exports = getLocation;
+
+function getLocation () {
+
+	return window.location.href;
+}
+
+
+
+// src/two.js -------------------------------------------
+
+"use strict";
+
+module.exports = setLocationHash;
+
+function setLocationHash (path) {
+
+	return window.location.hash = path;
+}
+```
+
+By using the karma plugin `karma-browserify` is possible to require files. Let's have a look:
+
+
+```
+	npm install karma-browserify --save-dev
+```
+
+We need also to update the `karma.config.js`:
+
+```js
+frameworks: ['jasmine', 'browserify'],
+
+// ...some code
+
+preprocessors: {
+    'tests/*.spec.js': ['browserify']
+},
+
+browserify: {
+    debug: true
+},
+```
+
+Now everything is ready in order to require files directly from out test files.
+
+```js
+// test/one.spec.js -------------------------------------------
+"use strict";
+
+var oneFunc = require("../src/one.js");
+
+describe("Function one: ", function () {
+
+	it("should return a string", function () {
+
+		var locPath = oneFunc();
+		expect(typeof locPath).toBe("string");
+	});
+});
+
+
+// test/two.spec.js -------------------------------------------
+"use strict";
+
+var twoFunc = require("../src/two.js");
+
+describe("Function two: ", function () {
+
+	it("should change location", function () {
+
+		var path = "/user/22"
+		twoFunc(path);
+		expect(window.location.hash).toBe("#"+path);
 	});
 });
 ```

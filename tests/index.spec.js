@@ -5,4 +5,3 @@ describe("First test", function () {
 		expect(test).toBe("HELLO WORLD!");
 	});
 });
-
