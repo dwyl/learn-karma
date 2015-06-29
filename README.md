@@ -85,3 +85,24 @@ To fix it install:
 ```
 	npm install karma-chrome-launcher --save-dev
 ```
+
+##First test
+
+This test checks that our function returns the right result.
+
+```js
+// src/index.js -----------------------------------------
+function hello () {
+	return "HELLO WORLD!";
+}
+
+
+// test/index.spec.js -----------------------------------
+describe("First test", function () {
+
+	it("should work", function () {
+		var test = hello();
+		expect(test).toBe("HELLO WORLD!");
+	});
+});
+```

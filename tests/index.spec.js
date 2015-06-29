@@ -1,7 +1,8 @@
 describe("First test", function () {
 
 	it("should work", function () {
-
-		console.log("HELLO WORLD!");
+		var test = hello();
+		expect(test).toBe("HELLO WORLD!");
 	});
 });
+
