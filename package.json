@@ -1,8 +1,8 @@
 {
   "name": "learn-karma",
   "version": "0.0.1",
-  "author": "https://twitter.com/nelsonic",
-  "description": "A image resizer without an Image Library",
+  "author": "dwyl & friends",
+  "description": "Karma is a test runner for the browser supported by the Angular.js team at Google.",
   "dependencies": {},
   "devDependencies": {
     "karma": "^0.12.21",
