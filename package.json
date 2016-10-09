@@ -2,7 +2,7 @@
   "name": "learn-karma",
   "version": "1.0.0",
   "author": "dwyl & friends",
-  "description": "Karma is a test runner for the browser supported by the Angular.js team at Google.",
+  "description": "Karma is a test runner for the browser supported by the team at Google.",
   "dependencies": {},
   "devDependencies": {
     "jasmine-core": "^2.5.2",
