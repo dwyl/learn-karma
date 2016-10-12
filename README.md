@@ -1,30 +1,35 @@
-# learn-karma 
-[![Build Status](https://travis-ci.org/nelsonic/learn-karma.png?branch=master)](https://travis-ci.org/nelsonic/learn-karma) [![Code Climate](https://codeclimate.com/github/nelsonic/learn-karma/badges/gpa.svg)](https://codeclimate.com/github/nelsonic/learn-karma) [![Dependencies](https://david-dm.org/nelsonic/learn-karma.png?theme=shields.io)](https://david-dm.org/nelsonic/learn-karma)
+# learn-karma
 
-Dive into Karma JavaScript Test Runner
+[![Build Status](https://travis-ci.org/dwyl/learn-karma.png?branch=master)](https://travis-ci.org/dwyl/learn-karma)
+[![Code Climate](https://codeclimate.com/github/dwyl/learn-karma/badges/gpa.svg)](https://codeclimate.com/github/dwyl/learn-karma)
+[![dependencies Status](https://david-dm.org/dwyl/learn-karma/status.svg)](https://david-dm.org/dwyl/learn-karma)
+[![devDependencies Status](https://david-dm.org/dwyl/learn-karma/dev-status.svg)](https://david-dm.org/dwyl/learn-karma?type=dev)
+
+A ***complete beginner's guide*** to using **Karma JavaScript Test Runner** to test your Web Applications.
 
 - - -
 
-![Dilbert Real Data](https://raw.github.com/nelsonic/learn-karma/master/images/dilbert-performance-test.jpg "Real Data")
+![Dilbert Real Data](https://raw.github.com/dwyl/learn-karma/master/images/dilbert-performance-test.jpg "Real Data")
 
-Not only can *data* be "real" but so can *testing* (in "real" browsers)!
+<small> Not only can *data* be "real" but so can *testing* (in "real" browsers)! </small>
 
-#### What is Karma?
+## _Why_
 
-If you've never heard of Karma, prepare to have your mind blown! :-)
+(_Automatically_) Testing your work (_code_) is _essential_
+for ensuring reliability in any software project.
 
-**Official Description**: Karma is a [test automation] tool that spawns a web
-server and executes source code against test code for each of the browsers
-connected. The results for each browser are examined and displayed via the
-command line so developers can see which browsers and tests passed or failed.
+The moment your team _stops_ testing (_but continues writing code_)
+the project becomes "_unstable_" and eventually fails.
 
-In other words, you can **automatically** test all your front-end code
-in **any** / **all** your target browsers each time you save your work.
+![jenga-falling](https://cloud.githubusercontent.com/assets/194400/19320846/da32c0d2-90aa-11e6-812f-4f9fb3fdce76.png)
 
-#### Why is Karma Awesome?
+### _Accelerating Test Automation_
+
+
+(_Karma is Awesome_) ?
 
 You don't have to *think* about switching contexts to run your tests.
-Simply save the file you are working on and Karma's watcher will
+Simply save the file you are working on and Karma's "_watcher_" will
 automatically instruct all the connected browsers to re-run the tests.
 
 Imagine you have 10 browsers you need to test your code against:
@@ -42,12 +47,32 @@ Once the browser is connected to Karma it will run all the tests for you
 on auto-pilot and respond with test results.
 
 
-#### Get Started
+
+## _What_ (is Karma) ?
+
+If you've never _heard_ of Karma (_or tried it_),
+prepare to be [_amazed_](https://youtu.be/x-skFgrV59A)! :-)
+
+**Official Description**: Karma is a [_test automation_] tool that spawns a web
+server and executes source code against test code for each of the browsers
+connected. The results for each browser are examined and displayed via the
+command line so developers can see which browsers and tests passed or failed.
+
+In other words, you can **automatically** test all your front-end code
+in **any** / **all** your target browsers each time you save your work.
+
+## _Who_ (_Should Use Karma_) ?
+
+
+
+## _How_?
+
+### Get Started
 
 If you are learning by cloning this repository
 
 ```sh
-git clone https://github.com/nelsonic/learn-karma.git
+git clone https://github.com/dwyl/learn-karma.git
 ```
 then install dependencies (karma and jasmine) locally:
 
@@ -89,7 +114,7 @@ karma start karma.conf.js
 This will open a browser window (what ever the default on your computer is)
 with the url: `http://localhost:9876/`
 
-![Karma Chrome Connected](https://raw.github.com/nelsonic/learn-karma/master/images/karma-first-start-connected-idle.png "Karma Chrome Connected")
+![Karma Chrome Connected](https://raw.github.com/dwyl/learn-karma/master/images/karma-first-start-connected-idle.png "Karma Chrome Connected")
 
 
 >> I will need to come back to this tutorial later as have just been handed
@@ -120,7 +145,13 @@ with the url: `http://localhost:9876/`
 
 #### How-to Videos
 
-- Testacular Tutorial (still relevant): http://www.youtube.com/watch?v=MVw8N3hTfCI
+
++ "Testacular" (now Karma) Tutorial (_the original video_): http://www.youtube.com/watch?v=MVw8N3hTfCI (14:51)
+instructs you to install Karma globally, uses Jasmine and heavily focussed on Angular so ignore those bits ...
++ Jesse Warden's Introduction To Karma: https://www.youtube.com/watch?v=FQwZrOAmMAc (35:22)
+_misleadingly_ states that Karma is used "on top of `grunt`" (_globally installed_) and also focussed on Angular (_asumes lots of prior knowledge_).
+
+
 
 #### Tutorials
 
